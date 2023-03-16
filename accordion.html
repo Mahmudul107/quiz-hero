@@ -9,9 +9,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="text-5xl font-semibold text-black text-center mb-10 bg-yellow-200 mx-auto p-6">This is my Questions and Answers page</h1>
+    <h1 class="text-5xl font-semibold text-black text-center mb-10 bg-yellow-200 mx-auto p-6">This is my Q N A page</h1>
 
-    <section>
+    <section class="px-14">
         <div class="collapse w-6/12 mb-4">
             <input type="checkbox" /> 
             <div class="collapse-title text-xl font-medium flex gap-5">
@@ -42,6 +42,36 @@
               <p class="ml-16 text-md bg-red-500 rounded-lg p-8 text-white font-semibold secondary"><span class="">Ans:</span> <span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> An Event Loop </span>is a way for programs to handle multiple tasks or events at the same time. It works by continuously checking for events and running the appropriate code for each event when it happens. This allows programs to be more efficient and responsive to user actions.</p>
             </div>
         </div>
+
+        <!-- Quiz related questions -->
+
+        <div class="collapse w-6/12 mb-4">
+            <input type="checkbox" /> 
+            <div class="collapse-title text-xl font-medium flex gap-5">
+                <h2 class="text-2xl"> <span class=" bg-secondary rounded-lg p-1"> 4.</span> What is quizTimer Function in noChange.js and how does it works ? Defines it in your own words. </h2>
+                <span class="bg-red-500 rounded-lg  p-2">&#8595;</span>
+            </div>
+            <div class="collapse-content"> 
+              <p class="ml-16 text-md bg-red-500 rounded-lg p-8 text-white font-semibold secondary"><span class="">Ans: <span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> The quizTimer </span> function creates a timer that updates the HTML content of an element with an ID 'count' to display a timer that counts up by seconds. The function can be stopped by passing timer interval.</p>
+            </div>
+        </div>
+        <div class="collapse w-6/12 mb-4">
+            <input type="checkbox" /> 
+            <div class="collapse-title text-xl font-medium flex gap-5">
+                <h2 class="text-2xl"> <span class=" bg-secondary rounded-lg p-1"> 4.</span> How does chooseQuiz function works in noChange.js ? Defines it in your own words. </h2>
+                <span class="bg-red-500 rounded-lg  p-2">&#8595;</span>
+            </div>
+            <div class="collapse-content"> 
+              <p class="ml-16 text-md bg-red-500 rounded-lg p-8 text-white font-semibold secondary"><span class="">Ans: <span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> The chooseQuiz </span> function records a user's answer for a quiz question by updating a new object in the 'answers' array, and then displays the updated answers to the user.</p>
+            </div>
+        </div>
+      
     </section>
+
+    <!-- footer -->
+    <footer class="py-10 text-center text-sm">
+        Copyright © 2023 Quiz Hero All Rights Reserved.
+      </footer>
+    
 </body>
 </html>

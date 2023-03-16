@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questions and Answers</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>This is my Questions and Answers page</h1>
+    <h1 class="text-5xl font-semibold text-black text-center mb-10 bg-yellow-200 mx-auto p-6">This is my Questions and Answers page</h1>
+
+    <section>
+        <div class="collapse w-6/12 mb-4">
+            <input type="checkbox" /> 
+            <div class="collapse-title text-xl font-medium flex gap-5">
+                <h2 class="text-2xl"> <span class=" bg-secondary rounded-lg p-1"> 1.</span> What is the differences between Map, filter, forEach and find in JavaScript? </h2>
+                <span class="bg-red-500 rounded-lg  p-2">&#8595;</span>
+            </div>
+            <div class="collapse-content"> 
+              <p class="ml-16 text-md bg-red-500 rounded-lg p-8 text-white font-semibold secondary"><span class="">Ans:</span> <span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> map.</span>  The 'map' method is used to repeat over an array or collection and transform each element into a new value,  the<span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> filter</span> method filtered out elements that do not meet a certain condition, the<span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> forEach</span> method perform a certain operation on each element, the <span class="text-xl font-bold italic bg-yellow-400 p-1 rounded-lg"> find</span> method return the first element that meets a certain condition, based on a function you provide.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
